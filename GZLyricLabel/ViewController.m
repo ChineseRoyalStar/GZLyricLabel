@@ -17,8 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+
     GZLyricLabel *lyricLB = [[GZLyricLabel alloc]initWithLyric:@"一川烟草,满城风絮,梅子黄时雨" font:[UIFont fontWithName:@"PingFangSC-Semibold" size:25] widthLimit:0 heightLimit:100];
     lyricLB.backgroundColor = [UIColor yellowColor];
     lyricLB.tintColor = [UIColor redColor];
