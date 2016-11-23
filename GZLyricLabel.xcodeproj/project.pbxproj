@@ -13,6 +13,8 @@
 		22168EE61DE44D0E008ABF00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22168EE41DE44D0E008ABF00 /* Main.storyboard */; };
 		22168EE81DE44D0E008ABF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22168EE71DE44D0E008ABF00 /* Assets.xcassets */; };
 		22168EEB1DE44D0E008ABF00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22168EE91DE44D0E008ABF00 /* LaunchScreen.storyboard */; };
+		22168EF51DE44D59008ABF00 /* NSString+StringRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 22168EF41DE44D59008ABF00 /* NSString+StringRect.m */; };
+		22168EF81DE44F6E008ABF00 /* GZLyricLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22168EF71DE44F6E008ABF00 /* GZLyricLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		22168EE71DE44D0E008ABF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22168EEA1DE44D0E008ABF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22168EEC1DE44D0E008ABF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22168EF31DE44D59008ABF00 /* NSString+StringRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringRect.h"; sourceTree = "<group>"; };
+		22168EF41DE44D59008ABF00 /* NSString+StringRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringRect.m"; sourceTree = "<group>"; };
+		22168EF61DE44F6E008ABF00 /* GZLyricLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZLyricLabel.h; sourceTree = "<group>"; };
+		22168EF71DE44F6E008ABF00 /* GZLyricLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZLyricLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		22168EDA1DE44D0E008ABF00 /* GZLyricLabel */ = {
 			isa = PBXGroup;
 			children = (
+				22168EF21DE44D33008ABF00 /* GZLyricLabel */,
 				22168EDE1DE44D0E008ABF00 /* AppDelegate.h */,
 				22168EDF1DE44D0E008ABF00 /* AppDelegate.m */,
 				22168EE11DE44D0E008ABF00 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				22168EDC1DE44D0E008ABF00 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22168EF21DE44D33008ABF00 /* GZLyricLabel */ = {
+			isa = PBXGroup;
+			children = (
+				22168EF31DE44D59008ABF00 /* NSString+StringRect.h */,
+				22168EF41DE44D59008ABF00 /* NSString+StringRect.m */,
+				22168EF61DE44F6E008ABF00 /* GZLyricLabel.h */,
+				22168EF71DE44F6E008ABF00 /* GZLyricLabel.m */,
+			);
+			path = GZLyricLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22168EF81DE44F6E008ABF00 /* GZLyricLabel.m in Sources */,
+				22168EF51DE44D59008ABF00 /* NSString+StringRect.m in Sources */,
 				22168EE31DE44D0E008ABF00 /* ViewController.m in Sources */,
 				22168EE01DE44D0E008ABF00 /* AppDelegate.m in Sources */,
 				22168EDD1DE44D0E008ABF00 /* main.m in Sources */,
